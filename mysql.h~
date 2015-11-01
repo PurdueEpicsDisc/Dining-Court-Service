@@ -1,0 +1,21 @@
+#include <mysql/mysql.h>
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+class Database {
+ private:
+  MYSQL * connection_pointer = NULL;
+  const char * server;
+  const char * user;
+  const char * password;
+  const char * database;
+
+
+ public:
+  Database();
+  ~Database();
+  void Select_from_tables();
+
+};
