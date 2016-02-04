@@ -1,5 +1,5 @@
 $('#earhartContainer').radialIndicator({
-        radius: 80,
+        radius: 60,
         barColor: '#33cc33',
         barWidth: 10,
         initValue: 20,
@@ -8,7 +8,7 @@ $('#earhartContainer').radialIndicator({
     });
 
 $('#windsorContainer').radialIndicator({
-        radius: 80,
+        radius: 60,
         barColor: '#33cc33',
         barWidth: 10,
         initValue: 20,
@@ -17,7 +17,7 @@ $('#windsorContainer').radialIndicator({
     });
 
 $('#wileyContainer').radialIndicator({
-        radius: 80,
+        radius: 60,
         barColor: '#33cc33',
         barWidth: 10,
         initValue: 20,
@@ -26,7 +26,7 @@ $('#wileyContainer').radialIndicator({
     });
 
 $('#fordContainer').radialIndicator({
-        radius: 80,
+        radius: 60,
         barColor: '#33cc33',
         barWidth: 10,
         initValue: 20,
@@ -35,7 +35,7 @@ $('#fordContainer').radialIndicator({
     });
 
 $('#hillenbrandContainer').radialIndicator({
-        radius: 80,
+        radius: 60,
         barColor: '#33cc33',
         barWidth: 10,
         initValue: 20,
