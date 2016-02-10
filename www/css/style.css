@@ -101,7 +101,13 @@ body {
 #admin-table {
     margin-top: 100px;
 }
+span{
+  color:white;
+}
+/******** About Page ********/
+.about-header{
 
+}
 /******** Modals ********/
 
 /******** Footer ********/
