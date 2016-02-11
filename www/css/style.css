@@ -102,7 +102,25 @@ body {
     margin-top: 200px;
     font-size:20px;
 }
+/******** About Page ********/
+#about-h1{
+    padding-top: 100px;
+    color:white;
 
+}
+#about-h4{
+    padding-top: 100px;
+    color:white;
+
+}
+#about-p{
+    padding-top:50px;
+    color:white;
+}
+#about-body{
+    background-color: rgb(74, 76, 103);
+
+}
 /******** Modals ********/
 
 /******** Footer ********/
