@@ -8,31 +8,38 @@
             <td>Status</td>
             <td>IP Address</td>
             <td>MAC Address</td>
-            <td>Working Hours</td>
           </tr>
           <tr>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td>Eve</td>
-            <td>Jackson</td> 
-            <td>94</td>
+            <td>1</td>
+            <td>Earhart</td>
+            <td>IN</td>
+            <td>ON</td>
+            <td>1.1.1.1</td> 
+            <td>1.1.1.1</td>
           </tr>
           <tr>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td>Eve</td>
-            <td>Jackson</td> 
-            <td>94</td>
+            <td>2</td>
+            <td>Earhart</td>
+            <td>OUT</td>
+            <td>ON</td>
+            <td>1.1.1.1</td> 
+            <td>1.1.1.1</td>
           </tr>
           <tr>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td>Eve</td>
-            <td>Jackson</td> 
-            <td>94</td>
+            <td>3</td>
+            <td>Wiley</td>
+            <td>IN</td>
+            <td>ON</td>
+            <td>1.1.1.1</td> 
+            <td>1.1.1.1</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Wiley</td>
+            <td>OUT</td>
+            <td>ON</td>
+            <td>1.1.1.1</td> 
+            <td>1.1.1.1</td>
           </tr>
         </table>
     </div>
