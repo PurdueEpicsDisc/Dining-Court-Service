@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var main = function() {
     $('#earhartContainer').radialIndicator({
             radius: 60,
             barColor: {
@@ -68,4 +68,6 @@ $(document).ready(function(){
             roundCorner : false,
             percentage: true
     });
-});
+};
+
+$(document).ready(main);

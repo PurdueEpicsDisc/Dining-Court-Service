@@ -8,9 +8,6 @@ body {
   color: #2c3e50;
 }
 
-.container-fluid {
-  padding: 0;
-}
 /******** Administrator Login ********/
 .form-signin {
   max-width: 330px;
@@ -87,6 +84,12 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/contact.jpg') no-repeat center center;
   background-size: cover;
   box-shadow: inset 0px 11px 20px -10px #111, inset 0px -11px 20px -10px #111; 
+}
+
+#contact-banner h1, #contact-banner p {
+  margin: 0;
+  color: #fff;
+  letter-spacing: 0.2em;
 }
 
 /******** Home Page********/
