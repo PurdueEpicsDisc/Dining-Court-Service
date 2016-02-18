@@ -1,5 +1,5 @@
 <?php $title = "Purdue Online Dining Guide"; require "header.php"; ?>
-    <div id="main-content" class="container-fluid">
+    <div class="container-fluid">
         <div class="row" id="progress-banner">
             <div id="banner-container">
                 <div class="row">
