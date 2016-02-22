@@ -5,8 +5,8 @@
                 <h1>Contact</h1>
                 <p class="description">We value your feedback! If you have any questions, comments, or concerns, you can contact us using the form below!</p>
             </div>
-            <p class="photo-credit">Dave Umberger / Purdue News Service</p>
         </div>
+        <p class="photo-credit">Dave Umberger / Purdue News Service</p>
     </div>
     <div class="main-content">
         <div class="container">

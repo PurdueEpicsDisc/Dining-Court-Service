@@ -1,43 +1,79 @@
 <?php $title = "Purdue Online Dining Guide"; require "header.php"; ?>
-    <div class="container-fluid">
-        <div class="row" id="progress-banner">
-            <div id="banner-container">
-                <div class="row">
-                    <div class="col-sm-4" id="earhartContainerWrapper">
-                        <div id="earhartContainer"></div>
-                    </div>
-                    <div class="col-sm-4" id="windsorContainerWrapper">
-                        <div id="windsorContainer"></div>
-                    </div>
-                    <div class="col-sm-4" id="wileyContainerWrapper">
-                        <div id="wileyContainer"></div>
-                    </div>
+    <div class="banner" id="home-banner">
+        <div class="container">
+            <div class="col-sm-offset-1 col-sm-10">
+                <h1>Purdue Online Dining Guide</h1>
+                <p class="description">Below you can see how busy a dining court is. Click or tap on the location for more statistics and information.</p>
+            </div>
+        <!--<div class="row">
+            <div class="col-sm-offset-3 col-sm-2" id="earhart-wrapper">
+                <div id="earhart-container">
+                    
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 col-sm-offset-2" id="fordContainerWrapper">
-                        <div id="fordContainer"></div>
-                    </div>
-                    <div class="col-sm-4" id="hillenbrandContainerWrapper">
-                        <div id="hillenbrandContainer"></div>
-                    </div>
+            </div>
+            <div class="col-sm-2" id="windsor-wrapper">
+                <div id="windsor-container">
+                    
+                </div>
+            </div>
+            <div class="col-sm-2" id="wiley-wrapper">
+                <div id="wiley-container">
+                    
                 </div>
             </div>
         </div>
-        <div class="row" id="chart-container">
-            <h1>History</h1>
-            <ul class="nav nav-pills" role="tablist">
-                <li role="presentation" class="active"><a href="#" aria-controls="earhart" role="tab" data-toggle="tab">Earhart</a></li>
-                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Windsor</a></li>
-                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Wiley</a></li>
-                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Ford</a></li>
-                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Hillenbrand</a></li>
-            </ul>
-            <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="home">E</div>
-                <div role="tabpanel" class="tab-pane" id="profile">W</div>
-                <div role="tabpanel" class="tab-pane" id="messages">I</div>
-                <div role="tabpanel" class="tab-pane" id="settings">F</div>
-                <div role="tabpanel" class="tab-pane" id="settings">H</div>
+        <div class="row">
+            <div class="col-sm-offset-4 col-sm-2" id="ford-wrapper">
+                <div id="ford-container">
+                    
+                </div>
+            </div>
+            <div class="col-sm-2" id="hillenbrand-wrapper">
+                <div id="hillenbrand-container">
+                    
+                </div>
+            </div>
+        </div>-->
+        </div>
+        <p class="photo-credit">Dave Umberger / Purdue News Service</p>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body" id="earhart-wrapper">
+                        <div id="earhart-container"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body" id="windsor-wrapper">
+                        <div id="windsor-container"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body" id="wiley-wrapper">
+                        <div id="wiley-container"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body" id="ford-wrapper">
+                            <div id="ford-container" style="display: inline-block;"></div>
+                            <h1 style="text-align: left; display: inline-block;">Ford Dining Court</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-body" id="hillenbrand-wrapper">
+                        <div id="hillenbrand-container"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

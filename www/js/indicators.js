@@ -1,72 +1,55 @@
 var main = function() {
-    $('#earhartContainer').radialIndicator({
-            radius: 60,
-            barColor: {
-                0: '#33cc99',
-                33: '#ffdd40',
-                66: '#ffad40',
-                100: '#ff4540'
-            },
-            barWidth: 10,
+    var radius = 30;
+    var barWidth = 25;
+    var barColor = {
+        0: '#33cc99',
+        33: '#ffdd40',
+        66: '#ffad40',
+        100: '#ff4540'
+    };
+    $('#earhart-container').radialIndicator({
+            radius: radius,
+            barColor: barColor,
+            barWidth: barWidth,
             initValue: 100,
             roundCorner : false,
-            percentage: true
+            displayNumber: false
     });
 
-    $('#windsorContainer').radialIndicator({
-            radius: 60,
-            barColor: {
-                0: '#33cc99',
-                33: '#ffdd40',
-                66: '#ffad40',
-                100: '#ff4540'
-            },
-            barWidth: 10,
+    $('#windsor-container').radialIndicator({
+            radius: radius,
+            barColor: barColor,
+            barWidth: barWidth,
             initValue: 30,
             roundCorner : false,
-            percentage: true
+            displayNumber: false
     });
 
-    $('#wileyContainer').radialIndicator({
-            radius: 60,
-            barColor: {
-                0: '#33cc99',
-                33: '#ffdd40',
-                66: '#ffad40',
-                100: '#ff4540'
-            },
-            barWidth: 10,
+    $('#wiley-container').radialIndicator({
+            radius: radius,
+            barColor: barColor,
+            barWidth: barWidth,
             initValue: 60,
             roundCorner : false,
-            percentage: true
+            displayNumber: false
     });
 
-    $('#fordContainer').radialIndicator({
-            radius: 60,
-            barColor: {
-                0: '#33cc99',
-                33: '#ffdd40',
-                66: '#ffad40',
-                100: '#ff4540'
-            },
-            barWidth: 10,
+    $('#ford-container').radialIndicator({
+            radius: radius,
+            barColor: barColor,
+            barWidth: barWidth,
             initValue: 90,
             roundCorner : false,
-            percentage: true
+            displayNumber: false
     });
 
-    $('#hillenbrandContainer').radialIndicator({
-            radius: 60,
-            barColor: {
-                0: '#33cc99',
-                33: '#ffdd40',
-                66: '#ffad40',
-                100: '#ff4540'
-            },
-            barWidth: 10,
+    $('#hillenbrand-container').radialIndicator({
+            radius: radius,
+            barColor: barColor,
+            barWidth: barWidth,
             initValue: 20,
             roundCorner : false,
-            percentage: true
+            displayNumber: false
     });
 };
 

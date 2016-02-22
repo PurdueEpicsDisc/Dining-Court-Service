@@ -91,7 +91,7 @@ body {
 .banner {
   padding-top: 50px;
   position: relative;
-  height: 300px;
+  min-height: 300px;
   box-shadow: inset 0px 11px 20px -10px #111, inset 0px -11px 20px -10px #111; 
   color: #f5f5f5;
   text-align: center;
@@ -106,6 +106,7 @@ body {
 .description {
   letter-spacing: 0.1em;
   font-size: 1.3em;
+  padding-bottom: 50px;
 }
 
 .photo-credit {
@@ -200,6 +201,11 @@ footer a {
 /*************************************
 *  Index Page Styles
 *************************************/
+#home-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/home.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 #progress-banner {
   min-height: 300px;
   overflow: hidden;
