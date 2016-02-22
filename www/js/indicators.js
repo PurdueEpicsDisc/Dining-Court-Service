@@ -1,6 +1,6 @@
 var main = function() {
-    var radius = 30;
-    var barWidth = 25;
+    var radius = 35;
+    var barWidth = 15;
     var barColor = {
         0: '#33cc99',
         33: '#ffdd40',
@@ -11,7 +11,7 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 100,
+            initValue: 20,
             roundCorner : false,
             displayNumber: false
     });
@@ -29,7 +29,7 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 60,
+            initValue: 40,
             roundCorner : false,
             displayNumber: false
     });
@@ -38,7 +38,7 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 90,
+            initValue: 70,
             roundCorner : false,
             displayNumber: false
     });
@@ -47,7 +47,7 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 20,
+            initValue: 99,
             roundCorner : false,
             displayNumber: false
     });

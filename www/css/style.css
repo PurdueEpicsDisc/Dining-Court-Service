@@ -121,7 +121,7 @@ body {
 
 .main-content {
   padding-top: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 footer {
@@ -198,6 +198,7 @@ footer a {
 #contact-us li {
   margin: 10px 0;
 }
+
 /*************************************
 *  Index Page Styles
 *************************************/
@@ -206,22 +207,23 @@ footer a {
   background-size: cover;
 }
 
-#progress-banner {
-  min-height: 300px;
-  overflow: hidden;
-  background: #e8e8e8;
-  box-shadow: inset 0px 11px 20px -10px #CCC, inset 0px -11px 20px -10px #CCC; 
+.charts h3 {
+  text-align: left;
+  margin: 10px 0 5px 0;
 }
 
-#banner-container {
-  max-width: 55%;
-  margin: auto;
+.chart-description {
+  display: inline-block;
+  float: left;
 }
 
-#chart-container {
-  text-align: center;
-  height: 600px;
+.chart-container {
+  display: inline-block;
+  float: left;
 }
+
+
+
 
 /*************************************
 *  Administrator Page Styles
