@@ -74,6 +74,7 @@
   background: #33cc99;
   color: #f5f5f5;
 }
+
 /*************************************
 *  General Page Styles
 *************************************/
@@ -207,23 +208,25 @@ footer a {
   background-size: cover;
 }
 
-.charts h3 {
-  text-align: left;
-  margin: 10px 0 5px 0;
+.charts a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.chart-wrapper {
+  text-align: center;
 }
 
 .chart-description {
+  min-width: 130px;
   display: inline-block;
-  float: left;
+  vertical-align: top;
+  margin: 0 15px;
 }
 
 .chart-container {
   display: inline-block;
-  float: left;
 }
-
-
-
 
 /*************************************
 *  Administrator Page Styles

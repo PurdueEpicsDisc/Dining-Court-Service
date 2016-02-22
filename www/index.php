@@ -10,69 +10,71 @@
     </div>
     <div class="main-content">
         <div class="container charts">
-            <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="panel-body" id="earhart-wrapper">
-                        <div class="col-xs-6">
+            <a href="#">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body chart-wrapper" id="earhart-wrapper">
                             <div class="chart-container" id="earhart-container"></div>
-                        </div>
-                        <div class="col-xs-6">
-                            <h3>Earhart</h3>
-                            <p>Capacity: 20%</p>
+                            <div class="chart-description">
+                                <h3>Earhart</h3>
+                                <p>Capacity: 20%</p>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="panel-body" id="windsor-wrapper">
-                        <div class="col-xs-6">
+            </a>
+            <a href="#">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body chart-wrapper" id="windsor-wrapper">
                             <div class="chart-container" id="windsor-container"></div>
-                        </div>
-                        <div class="col-xs-6">
-                            <h3>Windsor</h3>
-                            <p>Capacity: 30%</p>
+                            <div class="chart-description">
+                                <h3>Windsor</h3>
+                                <p>Capacity: 30%</p>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="panel-body" id="wiley-wrapper">
-                        <div class="col-xs-6">
+            </a>
+            <a href="#">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body chart-wrapper" id="wiley-wrapper">
                             <div class="chart-container" id="wiley-container"></div>
-                        </div>
-                        <div class="col-xs-6">
-                            <h3>Wiley</h3>
-                            <p>Capacity: 40%</p>
+                            <div class="chart-description">
+                                <h3>Wiley</h3>
+                                <p>Capacity: 40%</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="panel-body" id="ford-wrapper">
-                        <div class="col-xs-6">
+            </a>
+            <a href="#">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body chart-wrapper" id="ford-wrapper">
                             <div class="chart-container" id="ford-container"></div>
-                        </div>
-                        <div class="col-xs-6">
-                            <h3>Ford</h3>
-                            <p>Capacity: 70%</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="panel panel-default">
-                    <div class="panel-body" id="hillenbrand-wrapper">
-                        <div class="chart-container" id="hillenbrand-container"></div>
-                        <div class="chart-description">    
-                            <h3>Hillenbrand</h3>
-                            <p>Capacity: 99%</p>
+                            <div class="chart-description">
+                                <h3>Ford</h3>
+                                <p>Capacity: 70%</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
+            <a href="#">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body chart-wrapper" id="hillenbrand-wrapper">
+                            <div class="chart-container" id="hillenbrand-container"></div>
+                            <div class="chart-description">    
+                                <h3>Hillenbrand</h3>
+                                <p>Capacity: 99%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 <?php $jslib = "<script src=\"js/radialIndicator.js\"></script><script src=\"js/indicators.js\"></script>\n"; require "footer.php"; ?>
