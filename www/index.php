@@ -10,7 +10,7 @@
     </div>
     <div class="main-content">
         <div class="container charts">
-            <a href="#">
+            <a href="#" data-toggle="modal" data-target="#stat-modal">
                 <div class="col-md-4 col-sm-6">
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="earhart-wrapper">
@@ -76,6 +76,26 @@
                 </div>
             </a>
         </div>
+        <div class="modal fade" id="stat-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>History &amp; Statistics</h3>
+                    </div>
+                    <div class="modal-body" style="overflow: auto;">
+                        <div id="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-<?php $jslib = "<script src=\"js/radialIndicator.js\"></script><script src=\"js/indicators.js\"></script>\n"; require "footer.php"; ?>
+
+<?php 
+$jslib = "<script src=\"js/radialIndicator.js\"></script>
+            <script src=\"js/indicators.js\"></script>
+            <script src=\"js/highcharts.js\"></script>
+            <script src=\"js/exporting.js\"></script>
+            <script src=\"js/charts.js\"></script>\n"; 
+            require "footer.php"; 
+ ?>
     
