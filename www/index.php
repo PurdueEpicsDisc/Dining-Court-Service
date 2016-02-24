@@ -77,13 +77,13 @@
             </a>
         </div>
         <div class="modal fade" id="stat-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3>History &amp; Statistics</h3>
                     </div>
-                    <div class="modal-body" style="overflow: auto;">
-                        <div id="chart"></div>
+                    <div class="modal-body" style="text-align: center;">
+                        <div id="chart" style="display: inline-block;"></div>
                     </div>
                 </div>
             </div>
