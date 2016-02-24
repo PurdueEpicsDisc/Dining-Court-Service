@@ -231,6 +231,14 @@ footer a {
 /*************************************
 *  Administrator Page Styles
 *************************************/
+#signinbtn{
+  background-color: #33cc99;
+  border:none;
+}
+#admin-modal-label{
+  color:#2c3e50;
+}
+
 #admin-table {
   margin-top: 200px;
   font-size:20px;
