@@ -1,4 +1,23 @@
-<?php $title = "Admin Settings"; require "header.php"; ?>
+<?php
+  $servername = "localhost";
+  $username = "zhiyang";
+  $password = "forest901219";
+
+  // Create connection
+  $conn = new mysqli($servername, $username, $password);
+
+  // Check connection
+  if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+  } 
+ 
+
+
+
+
+
+  $title = "Admin Settings"; require "header.php"; 
+?>
     <div id="main-content" class="container">
         <table id="admin-table" class="table table-striped">
           <tr>
