@@ -1,15 +1,5 @@
 <?php
-  $servername = "localhost";
-  $username = "root";
-  $password = "forest901219";
 
-  // Create connection
-  $conn = new mysqli($servername, $username, $password);
-  // Check connection
-  if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-  } 
-   
   $title = "Admin Settings"; require "adminheader.php"; 
 ?>
     <div id="main-content" class="container">

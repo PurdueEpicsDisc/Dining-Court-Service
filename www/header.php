@@ -18,7 +18,7 @@
                         <h4 class="modal-title" id="admin-modal-label">Administrator Login</h4>
                     </div>
                     <div class="modal-body">
-                        <form class="form-signin" action="login.php" method="post">
+                        <form class="form-signin" action="login.php" method="post" enctype="multipart/form-data">
                             <label for="inputEmail" class="sr-only">Admin Username</label>
                             <input type="email" id="inputEmail" class="form-control" placeholder="Admin Username" name = "user" required autofocus>
                             <label for="inputPassword" class="sr-only">Password</label>
@@ -61,10 +61,11 @@
                         </li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
-                        <li><a id="admin-login" href="#admin-login" data-toggle="modal" data-target="#admin-modal">Administrator Login</a><li>
+                        <li><a id="admin-login" href="#admin-login" ata-toggle="modal" data-target="#admin-modal">Administrator Login</a><li>
                     </ul>
                 </div>
             </div>
 
         </nav>
     </header>
+</html>
