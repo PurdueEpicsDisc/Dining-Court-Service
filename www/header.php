@@ -10,6 +10,30 @@
 </head>
 <body>
     <header>
+        <div class="modal fade" id="admin-modal" tabindex="-1" role="dialog" aria-labelledby="admin-modal-label">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="admin-modal-label">Administrator Login</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-signin" action="login.php" method="post">
+                            <label for="inputEmail" class="sr-only">Admin Username</label>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Admin Username" name = "inputuser" required autofocus>
+                            <label for="inputPassword" class="sr-only">Password</label>
+                            <input type="password" id="inputPassword" name = "inputpass" class="form-control" placeholder="Password" required>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                            <button class="btn btn-lg btn-primary btn-block" id="signinbtn" type="submit">Sign in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -21,6 +45,7 @@
                     </button>
                     <a class="navbar-brand" href="index.php">P<span>O</span>DG</a>
                 </div>
+
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
@@ -40,5 +65,6 @@
                     </ul>
                 </div>
             </div>
+
         </nav>
     </header>
