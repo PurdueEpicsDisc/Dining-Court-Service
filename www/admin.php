@@ -10,12 +10,21 @@
   else 
   {
     $result = "You are not logged in yet";
-    //header('location: index.php');
+    header('location: index.php');
   }
 
   $title = "Admin Settings"; require "adminheader.php"; 
   
-?>
+?>  
+    <div class="row">
+      <div class = "col-md-8">
+      </div>
+      <div class = "col-md-4";>
+        <form action= "logout.php" method="post";>
+          <input type="submit" value = "LOGOUT">
+        </form>
+      </div>
+    </div>
     <div id="main-content" class="container">
         <table id="admin-table" class="table table-striped">
           <tr>
