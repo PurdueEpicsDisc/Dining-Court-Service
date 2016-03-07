@@ -61,7 +61,7 @@
                         </li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
-                        <li><a id="admin-login" href="#admin-login" ata-toggle="modal" data-target="#admin-modal">Administrator Login</a><li>
+                        <li><a id="admin-login" href="#admin-login" data-toggle="modal" data-target="#admin-modal">Administrator Login</a><li>
                     </ul>
                 </div>
             </div>

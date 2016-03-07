@@ -1,6 +1,20 @@
 <?php
 
+  session_start();
+  if (isset($_SESSION['id'])) {
+    // Put stored session variables into local PHP variable
+    $uid = $_SESSION['id'];
+    $usname = $_SESSION['user'];
+    $result = "Test variables: <br /> Username: ".$usname. "<br /> Id: ".$uid;
+  } 
+  else 
+  {
+    $result = "You are not logged in yet";
+    //header('location: index.php');
+  }
+
   $title = "Admin Settings"; require "adminheader.php"; 
+  
 ?>
     <div id="main-content" class="container">
         <table id="admin-table" class="table table-striped">
@@ -110,4 +124,5 @@
           </tr>
         </table>
     </div>
+   
 <?php $jslib = ""; require "footer.php"; ?>
