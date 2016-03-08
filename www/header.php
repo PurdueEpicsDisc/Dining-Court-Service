@@ -10,30 +10,6 @@
 </head>
 <body>
     <header>
-        <div class="modal fade" id="admin-modal" tabindex="-1" role="dialog" aria-labelledby="admin-modal-label">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="admin-modal-label">Administrator Login</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form class="form-signin" action="login.php" method="post" enctype="multipart/form-data">
-                            <label for="inputEmail" class="sr-only">Admin Username</label>
-                            <input type="email" id="inputEmail" class="form-control" placeholder="Admin Username" name = "user" required autofocus>
-                            <label for="inputPassword" class="sr-only">Password</label>
-                            <input type="password" id="inputPassword" name = "pass" class="form-control" placeholder="Password" required>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" value="remember-me"> Remember me
-                                </label>
-                            </div>
-                            <button class="btn btn-lg btn-primary btn-block" id="signinbtn" type="submit">Sign in</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -61,7 +37,6 @@
                         </li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
-                        <li><a id="admin-login" href="#admin-login" data-toggle="modal" data-target="#admin-modal">Administrator Login</a><li>
                     </ul>
                 </div>
             </div>

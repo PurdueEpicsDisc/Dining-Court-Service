@@ -1,13 +1,14 @@
 <?php
-	$servername = "mysql.ecn.purdue.edu";
-  	$username = "epics_dining";
-  	$password = "raspberry";
+    $servername = "localhost";
+    $username = "root";
+    $password = "forest901219";
 
-  	// Create connection
-  	$dbCon = new mysqli($servername, $username, $password);
-  	// Check connection
-  	if ($dbCon->connect_error) {
-      	die("Connection failed: " . $conn->connect_error);
-  	}
-  	echo "connected\n";
+    // Create connection
+    $dbCon = mysql_connect($servername, $username, $password);
+    // Check connection
+    if (!$dbCon) {
+      die('Could not connect: ' . mysql_error());
+      echo "shit went wrong";
+    }
+      echo "connected\n";
 ?>

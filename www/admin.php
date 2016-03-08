@@ -10,10 +10,10 @@
   else 
   {
     $result = "You are not logged in yet";
-    header('location: index.php');
+    header('location: login.php');
   }
 
-  $title = "Admin Settings"; require "adminheader.php"; 
+  $title = "Admin Settings"; require "header.php"; 
   
 ?>  
     <div class="row">
