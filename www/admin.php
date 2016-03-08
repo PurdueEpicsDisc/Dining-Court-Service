@@ -1,6 +1,15 @@
 <?php
+  $inactive = 300; 
+  ini_set('session.gc_maxlifetime', $inactive); // set the session max lifetime to 2 hours
 
   session_start();
+  if (isset($_SESSION['testing']) && (time() - $_SESSION['testing'] > $inactive)) {
+    // last request was more than 2 hours ago
+    session_unset();     // unset $_SESSION variable for this page
+    session_destroy();   // destroy session data
+  }
+  $_SESSION['testing'] = time(); // Update session
+
   if (isset($_SESSION['id'])) {
     // Put stored session variables into local PHP variable
     $uid = $_SESSION['id'];
