@@ -1,7 +1,7 @@
 <?php
-    $servername = "localhost";
-    $username = "root";
-    $password = "forest901219";
+    $servername = "mysql.ecn.purdue.edu";
+    $username = "epics_dining";
+    $password = "raspberry";
 
     // Create connection
     $dbCon = mysql_connect($servername, $username, $password);
