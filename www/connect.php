@@ -8,7 +8,6 @@
     // Check connection
     if (!$dbCon) {
       die('Could not connect: ' . mysql_error());
-      echo "shit went wrong";
+      //echo "shit went wrong";
     }
-      echo "connected\n";
-?>
+      //echo "connected\n";

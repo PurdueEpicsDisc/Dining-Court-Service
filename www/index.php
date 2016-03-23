@@ -1,4 +1,6 @@
-<?php $title = "Purdue Online Dining Guide"; require "header.php"; ?>
+<?php $title = "Purdue Online Dining Guide"; require "header.php"; 
+    include_once("calcap.php");
+?>
     <div class="banner" id="home-banner">
         <div class="container">
             <div class="col-sm-offset-1 col-sm-10">
@@ -17,7 +19,7 @@
                             <div class="chart-container" id="earhart-container"></div>
                             <div class="chart-description">
                                 <h3>Earhart</h3>
-                                <p>Capacity: 20%</p>
+                                <p><?php echo $earhartcap?></p>
                             </div>
                         </div>
                     </div>

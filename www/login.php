@@ -13,11 +13,6 @@
 	  	$uid = $row[0];
 	  	$dbUsname = $row[1];
 	  	$dbPassword = $row[2];
-	  	echo "id";
-	  	echo $uid;
-
-	  	echo $dbUsname;
-	  	echo $dbPassword;
 		if($inputuser == $dbUsname && $inputpass == $dbPassword)
 		{
 			//set session
