@@ -53,4 +53,5 @@ var main = function() {
     });
 };
 
+console.log($('#earhart-wrapper').closest('h3'));
 $(document).ready(main);
