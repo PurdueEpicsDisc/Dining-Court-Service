@@ -79,13 +79,13 @@
             </a>
         </div>
         <div class="modal fade" id="stat-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3>History &amp; Statistics</h3>
+                        <h3>Earhart Trends</h3>
                     </div>
                     <div class="modal-body" style="text-align: center;">
-                        <div id="chart" style="display: inline-block;"></div>
+                        <div id="earhart-trend" style="display: inline-block;"></div>
                     </div>
                 </div>
             </div>
@@ -95,9 +95,7 @@
 <?php 
 $jslib = "<script src=\"js/radialIndicator.js\"></script>
             <script src=\"js/indicators.js\"></script>
-            <script src=\"js/highcharts.js\"></script>
-            <script src=\"js/exporting.js\"></script>
-            <script src=\"js/charts.js\"></script>\n"; 
+            <script src=\"js/trendchart.js\"></script>\n"; 
             require "footer.php"; 
  ?>
     
