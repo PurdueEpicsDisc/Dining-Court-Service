@@ -50,7 +50,9 @@
             <td>IN</td>
             <td>
               <div>
+                <form action="reboot1.php" method="get">
                   <button class="button">Reboot</button>
+                </form>
               </div>
             </td>
             <td>1.1.1.1</td> 
@@ -62,7 +64,9 @@
             <td>OUT</td>
             <td>
               <div>
-                  <button class="button">Reboot</button>
+                  <form action="reboot2.php" method="get">
+                    <button class="button">Reboot</button>
+                </form>
               </div>
             </td>
             <td>1.1.1.1</td> 
