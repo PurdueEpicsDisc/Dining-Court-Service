@@ -40,7 +40,7 @@
             <td><span>Camera ID</span></td>
             <td><span>Location</span></td> 
             <td><span>Direction</span></td>
-            <td><span>Status</span></td>
+            <td><span>Reboot</span></td>
             <td><span>IP Address</span></td>
             <td><span>MAC Address</span></td>
           </tr>
@@ -49,12 +49,8 @@
             <td>Earhart</td>
             <td>IN</td>
             <td>
-              <div class="onoffswitch">
-                  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="num1onoffswitch" checked>
-                  <label class="onoffswitch-label" for="num1onoffswitch">
-                      <span class="onoffswitch-inner"></span>
-                      <span class="onoffswitch-switch"></span>
-                  </label>
+              <div>
+                  <button class="button">Reboot</button>
               </div>
             </td>
             <td>1.1.1.1</td> 
@@ -65,12 +61,8 @@
             <td>Earhart</td>
             <td>OUT</td>
             <td>
-              <div class="onoffswitch">
-                  <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="num2onoffswitch" checked>
-                  <label class="onoffswitch-label" for="num2onoffswitch">
-                      <span class="onoffswitch-inner"></span>
-                      <span class="onoffswitch-switch"></span>
-                  </label>
+              <div>
+                  <button class="button">Reboot</button>
               </div>
             </td>
             <td>1.1.1.1</td> 
