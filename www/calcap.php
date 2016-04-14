@@ -6,6 +6,7 @@
 	$date = date('Y-m-d');
 	$hour = date('H');
 	$day = date('l');
+	$earhartcap = "Capacity: 0%";
 	if($day == "Monday"||"Tuesday"||"Wednesday"||"Thursday"||"Friday"){
 		if(6 <= $hour && $hour < 10){
 			$queryin = "SELECT * FROM Timestamp where camera_ID = '1' and time_stamp between '" . $date ." 6:30:00' and '" . $date ." 9:30:00'";
@@ -32,7 +33,7 @@
 			$earhartcap = sprintf("Capacity: %0.2f",($rownum/900)*100) . ("%");
 		}
 		else{
-			$earhartcap = sprintf("Capacity: 0%");
+			$earhartcap = "Capacity: 0%";
 		}
 	}
 	elseif($day = "Saturday"){
@@ -53,7 +54,7 @@
 			$earhartcap = sprintf("Capacity: %0.2f",($rownum/900)*100) . ("%");
 		}
 		else{
-			$earhartcap = sprintf("Capacity: 0%");
+			$earhartcap = "Capacity: 0%";
 		}
 	}
 	else{
@@ -66,7 +67,7 @@
 			$earhartcap = sprintf("Capacity: %0.2f",($rownum/900)*100) . ("%");
 		}
 		else{
-			$earhartcap = sprintf("Capacity: 0%");
+			$earhartcap = "Capacity: 0%";
 		}
 	}
 	//$innum = mysql_query($queryin);
@@ -74,7 +75,4 @@
 	//$rownum = mysql_num_rows($innum) - mysql_num_rows($outnum) ;
 	//echo $rownum ."\n";
 	//$earhartcap = sprintf("Capacity: %0.2f",($rownum/900)*100) . ("%");
-	//echo $earhartcap;
-
-
 ?>
