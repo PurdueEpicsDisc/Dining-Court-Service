@@ -18,7 +18,7 @@ var main = function() {
     });
 
     $('.chart-description p').bind("DOMSubtreeModified", function() {
-      var capacity = $('#earhart-container').next().find('p').text();
+      var capacity = $('#earhart-container').next().next().find('p').text();
       capacity = capacity.match(/\d*[.]\d*|\d+/m);
       var radialObj = $('#earhart-container').data('radialIndicator');
       radialObj.animate(+capacity);
