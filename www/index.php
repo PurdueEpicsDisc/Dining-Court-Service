@@ -82,10 +82,15 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3>Earhart Trends</h3>
+                        <h3 style="text-align: center;">Earhart Trends</h3>
                     </div>
                     <div class="modal-body" style="text-align: center;">
-                        <div id="earhart-trend" style="display: inline-block;"></div>
+                        <div id="earhart-trend">
+                          <div style="padding-bottom: 50px;">
+                            <h4>Activity Level</h4>
+                            Low <img src="images/legend.png" width="155px" height="45px" style="display: inline-block"/> High
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>
