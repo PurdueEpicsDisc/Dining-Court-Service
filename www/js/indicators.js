@@ -7,11 +7,13 @@ var main = function() {
         66: '#ffad40',
         100: '#ff4540'
     };
+
+
     $('#earhart-container').radialIndicator({
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 0,
+            initValue: $('#earhart-container').next().find('p').text().match(/\d*[.]\d*|\d+/m),
             roundCorner : false,
             displayNumber: false
     });
