@@ -11,16 +11,24 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 20,
+            initValue: 0,
             roundCorner : false,
             displayNumber: false
+    });
+
+    $('.chart-description p').bind("DOMSubtreeModified", function() {
+      var capacity = $('#earhart-container').next().find('p').text();
+      capacity = capacity.match(/\d*[.]\d*|\d+/m);
+      console.log(capacity);
+      var radialObj = $('#earhart-container').data('radialIndicator');
+      radialObj.animate(+capacity);
     });
 
     $('#windsor-container').radialIndicator({
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 30,
+            initValue: 0,
             roundCorner : false,
             displayNumber: false
     });
@@ -29,7 +37,7 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 40,
+            initValue: 0,
             roundCorner : false,
             displayNumber: false
     });
@@ -38,7 +46,7 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 70,
+            initValue: 0,
             roundCorner : false,
             displayNumber: false
     });
@@ -47,11 +55,10 @@ var main = function() {
             radius: radius,
             barColor: barColor,
             barWidth: barWidth,
-            initValue: 99,
+            initValue: 0,
             roundCorner : false,
             displayNumber: false
     });
 };
 
-console.log($('#earhart-wrapper').closest('h3'));
 $(document).ready(main);

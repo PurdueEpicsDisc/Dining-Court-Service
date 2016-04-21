@@ -1,4 +1,4 @@
-<?php $title = "Purdue Online Dining Guide"; require "header.php"; 
+<?php $title = "Purdue Online Dining Guide"; require "header.php";
     include_once("calcap.php");
 ?>
     <div class="banner" id="home-banner">
@@ -32,7 +32,7 @@
                             <div class="chart-container" id="windsor-container"></div>
                             <div class="chart-description">
                                 <h3>Windsor</h3>
-                                <p>Capacity: 30%</p>
+                                <p>Capacity: 0%</p>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                             <div class="chart-container" id="wiley-container"></div>
                             <div class="chart-description">
                                 <h3>Wiley</h3>
-                                <p>Capacity: 40%</p>
+                                <p>Capacity: 0%</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                             <div class="chart-container" id="ford-container"></div>
                             <div class="chart-description">
                                 <h3>Ford</h3>
-                                <p>Capacity: 70%</p>
+                                <p>Capacity: 0%</p>
                             </div>
                         </div>
                     </div>
@@ -69,9 +69,9 @@
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="hillenbrand-wrapper">
                             <div class="chart-container" id="hillenbrand-container"></div>
-                            <div class="chart-description">    
+                            <div class="chart-description">
                                 <h3>Hillenbrand</h3>
-                                <p>Capacity: 99%</p>
+                                <p>Capacity: 0%</p>
                             </div>
                         </div>
                     </div>
@@ -92,10 +92,9 @@
         </div>
     </div>
 
-<?php 
+<?php
 $jslib = "<script src=\"js/radialIndicator.js\"></script>
             <script src=\"js/indicators.js\"></script>
-            <script src=\"js/trendchart.js\"></script>\n"; 
-            require "footer.php"; 
+            <script src=\"js/trendchart.js\"></script>\n";
+            require "footer.php";
  ?>
-    
