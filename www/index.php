@@ -17,6 +17,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="earhart-wrapper">
                             <div class="chart-container" id="earhart-container"></div>
+                            <img src="images/arrow-up.png" />
                             <div class="chart-description">
                                 <h3>Earhart</h3>
                                 <p><?php echo $earhartcap?></p>
@@ -30,6 +31,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="windsor-wrapper">
                             <div class="chart-container" id="windsor-container"></div>
+                            <img src="images/idle-sign.png" />
                             <div class="chart-description">
                                 <h3>Windsor</h3>
                                 <p>Capacity: 0%</p>
@@ -43,6 +45,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="wiley-wrapper">
                             <div class="chart-container" id="wiley-container"></div>
+                            <img src="images/idle-sign.png" />
                             <div class="chart-description">
                                 <h3>Wiley</h3>
                                 <p>Capacity: 0%</p>
@@ -56,6 +59,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="ford-wrapper">
                             <div class="chart-container" id="ford-container"></div>
+                            <img src="images/idle-sign.png" />
                             <div class="chart-description">
                                 <h3>Ford</h3>
                                 <p>Capacity: 0%</p>
@@ -69,6 +73,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body chart-wrapper" id="hillenbrand-wrapper">
                             <div class="chart-container" id="hillenbrand-container"></div>
+                            <img src="images/idle-sign.png" />
                             <div class="chart-description">
                                 <h3>Hillenbrand</h3>
                                 <p>Capacity: 0%</p>

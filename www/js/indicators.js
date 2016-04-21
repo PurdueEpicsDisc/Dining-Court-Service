@@ -8,7 +8,6 @@ var main = function() {
         100: '#ff4540'
     };
 
-
     $('#earhart-container').radialIndicator({
             radius: radius,
             barColor: barColor,
@@ -21,7 +20,6 @@ var main = function() {
     $('.chart-description p').bind("DOMSubtreeModified", function() {
       var capacity = $('#earhart-container').next().find('p').text();
       capacity = capacity.match(/\d*[.]\d*|\d+/m);
-      console.log(capacity);
       var radialObj = $('#earhart-container').data('radialIndicator');
       radialObj.animate(+capacity);
     });
